@@ -1,6 +1,6 @@
 name: "Boop Gregors nose"
 on:
-  repository_dispatch: {}
+  workflow_dispatch: {}
  
 jobs:
   boop:
