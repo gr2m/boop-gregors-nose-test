@@ -1,0 +1,9 @@
+name: "Boop Gregors nose"
+on:
+  repository_dispatch: {}
+ 
+jobs:
+  boop:
+    runs-on: ubuntu-latest
+    steps:
+      uses: gr2m/boop-gregors-nose
