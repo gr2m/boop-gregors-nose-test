@@ -6,4 +6,6 @@ jobs:
   boop:
     runs-on: ubuntu-latest
     steps:
-      uses: gr2m/boop-gregors-nose
+      - uses: gr2m/boop-gregors-nose@master
+        with:
+          personal-access-token: ${{ secrets.PAT }}
